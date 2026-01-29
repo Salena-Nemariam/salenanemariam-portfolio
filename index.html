@@ -3,8 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Salena Nemariam | Portfolio Showcase: 
-        <p AI-Driven Healthcare Solutions</title> </p>
+    <title>Salena Nemariam | Portfolio Showcase: AI-Driven Healthcare Solutions</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -36,7 +35,6 @@
 </head>
 <body class="bg-light-bg text-secondary font-sans antialiased">
 
-    <!-- Header -->
     <header class="bg-white/80 backdrop-blur-md sticky top-0 z-50 shadow-sm">
         <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
             <a href="#" class="text-2xl font-bold text-slate-800 hover:text-primary transition-colors">Salena Nemariam</a>
@@ -49,7 +47,6 @@
         </nav>
     </header>
 
-    <!-- Hero Section -->
     <section id="home" class="py-24 md:py-32 bg-white">
         <div class="container mx-auto px-6 text-center">
             <h1 class="text-4xl md:text-6xl font-bold text-slate-900 leading-tight">
@@ -74,7 +71,6 @@
         </div>
     </section>
 
-    <!-- About Section -->
     <section id="about" class="py-20 md:py-28">
         <div class="container mx-auto px-6">
             <div class="grid md:grid-cols-5 gap-12 items-center">
@@ -102,7 +98,6 @@
                     </p>
                     <div class="flex space-x-4">
                         <a href="https://www.linkedin.com/in/salena-nemariam/" class="text-slate-500 hover:text-primary transition-colors">
-                            <!-- LinkedIn Icon -->
                             <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                                 <path fill-rule="evenodd" d="M19 0h-14c-2.761 0-5 2.239-5 
                                     5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 
@@ -121,47 +116,60 @@
         </div>
     </section>
 
-    <!-- Projects Section -->
     <section id="projects" class="py-20 md:py-28 bg-light-bg">
-        <div class="container mx-auto px-6 text-center">
-            <h2 class="text-3xl font-bold text-slate-800 mb-6">Projects</h2>
-          <div class="project-card" style="margin-top: 2rem; background: #ffffff; border: 1px solid #e5e7eb; border-radius: 8px; padding: 2rem; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);">
-  
-  <div style="margin-bottom: 1rem; border-bottom: 2px solid #0d9488; padding-bottom: 0.5rem;">
-    <h3 style="margin: 0; font-size: 1.5rem; color: #111827; font-weight: 700;">
-      Optimizing Patient Flow: AI-Driven Discharge Planning
-    </h3>
-    <p style="margin: 0.5rem 0 0; color: #0d9488; font-weight: 600; font-size: 0.9rem;">
-      HEALTHCARE ANALYTICS • LEAN SIX SIGMA • PYTHON
-    </p>
-  </div>
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-slate-800 mb-6 text-center">Projects</h2>
+            
+            <div style="background: #ffffff; border-radius: 12px; box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1); overflow: hidden; margin-top: 2rem; border: 1px solid #f3f4f6; max-width: 900px; margin-left: auto; margin-right: auto;">
+            
+                <div style="padding: 2.5rem;">
+                    
+                    <h3 style="margin-top: 0; font-size: 1.75rem; color: #111827; font-weight: 800; letter-spacing: -0.025em; margin-bottom: 0.5rem;">
+                        AI-Driven Discharge Planning: Reducing "ALC" Bed Blocking
+                    </h3>
+                    <p style="color: #0d9488; font-weight: 600; font-size: 0.85rem; letter-spacing: 0.05em; text-transform: uppercase; margin-bottom: 2rem;">
+                        PREDICTIVE ANALYTICS • PYTHON • LEAN SIX SIGMA
+                    </p>
 
-  <p style="color: #374151; line-height: 1.6; font-size: 1rem; margin-bottom: 1.5rem;">
-    <strong>The Problem:</strong> "Bed blocking" (Alternate Level of Care) creates bottlenecks in the ER and reduces hospital capacity. <br><br>
-    <strong>The Solution:</strong> I built a <strong>predictive model</strong> using Python to identify patients at risk of delayed discharge upon admission. To adhere to privacy laws (PHIPA), I engineered a synthetic dataset based on <strong>CIHI 2024 aggregate statistics</strong> (simulating real-world patterns like dementia prevalence and LTC wait times).
-  </p>
+                    <div style="margin-bottom: 2rem;">
+                        <h4 style="font-size: 1.1rem; color: #1f2937; font-weight: 700; margin-bottom: 0.75rem;">The Challenge</h4>
+                        <p style="color: #4b5563; line-height: 1.7; font-size: 1.05rem; margin: 0;">
+                            "Bed blocking" (Alternate Level of Care) is a primary driver of ER overcrowding. I built a machine learning simulation using <strong>CIHI 2024 aggregate data</strong> to identify patients at risk of delayed discharge on <em>Day 1</em> of admission.
+                        </p>
+                    </div>
 
-  <div style="background-color: #f3f4f6; border-left: 4px solid #0d9488; padding: 1rem; margin-bottom: 1.5rem;">
-    <h4 style="margin: 0 0 0.5rem; font-size: 1rem; color: #111827;">Key Insight (Lean Competency):</h4>
-    <p style="margin: 0; font-size: 0.95rem; color: #4b5563;">
-      The Random Forest analysis revealed that <strong>"Waiting for LTC"</strong> and <strong>"Cognitive Impairment"</strong> were 3x more predictive of delays than age alone. This suggests that process improvements should focus on <strong>early social work intervention</strong> (Day 1) rather than just adding physical beds.
-    </p>
-  </div>
+                    <div style="background-color: #f0fdfa; border-left: 4px solid #0d9488; padding: 1.5rem; margin-bottom: 2rem; border-radius: 0 8px 8px 0;">
+                        <h4 style="margin: 0 0 0.5rem; font-size: 1.1rem; color: #115e59; font-weight: 700;">Key Analysis Finding</h4>
+                        <p style="margin: 0; color: #374151; font-size: 1.05rem; line-height: 1.6;">
+                            The Random Forest model revealed that <strong>"Dementia Diagnosis"</strong> and <strong>"Waiting for Long-Term Care"</strong> were <strong>3x more predictive</strong> of delays than patient age alone.
+                        </p>
+                    </div>
 
-  <div style="display: flex; gap: 10px;">
-    <a href="https://github.com/salenanemariam/salenanemariam-portfolio" target="_blank" style="text-decoration: none; background-color: #111827; color: #fff; padding: 0.75rem 1.5rem; border-radius: 4px; font-weight: 600; font-size: 0.9rem; transition: background 0.2s;">
-      View Python Code
-    </a>
-    
-    <a href="https://github.com/salenanemariam/salenanemariam-portfolio" target="_blank" style="text-decoration: none; border: 1px solid #d1d5db; color: #374151; padding: 0.75rem 1.5rem; border-radius: 4px; font-weight: 600; font-size: 0.9rem; transition: background 0.2s;">
-      See Visualizations
-    </a>
-  </div>
+                    <div style="margin-bottom: 2.5rem; text-align: center;">
+                        <img src="alc_chart.png" alt="Feature Importance Chart showing Dementia as top driver" style="max-width: 100%; height: auto; border-radius: 8px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);">
+                        <p style="font-size: 0.85rem; color: #6b7280; margin-top: 0.5rem; font-style: italic;">
+                            Figure 1: Feature Importance analysis validating CIHI risk factors.
+                        </p>
+                    </div>
 
-</div>        </div>
+                    <div style="margin-bottom: 2.5rem;">
+                        <h4 style="font-size: 1.1rem; color: #1f2937; font-weight: 700; margin-bottom: 0.75rem;">Operational Impact</h4>
+                        <p style="color: #4b5563; line-height: 1.7; font-size: 1.05rem; margin: 0;">
+                            By implementing this model as a "Digital Command Center" alert, hospitals can trigger Social Work interventions within 24 hours for high-risk profiles, reducing avoidable administrative days.
+                        </p>
+                    </div>
+
+                    <div style="text-align: left;">
+                        <a href="https://github.com/Salena-Nemariam/salenanemariam-portfolio/blob/main/ALC_Analysis.ipynb" target="_blank" style="display: inline-block; background-color: #111827; color: #ffffff; padding: 0.875rem 2rem; border-radius: 8px; text-decoration: none; font-weight: 600; font-size: 1rem; transition: transform 0.2s; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);">
+                            View Python Code &rarr;
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+            </div>
     </section>
 
-    <!-- Contact Section -->
     <section id="contact" class="py-20 md:py-28 bg-white">
         <div class="container mx-auto px-6 text-center">
             <h2 class="text-3xl font-bold text-slate-800 mb-4">Contact</h2>
@@ -176,7 +184,6 @@
         </div>
     </section>
 
-    <!-- Footer -->
     <footer class="bg-slate-800 text-slate-300">
         <div class="container mx-auto px-6 py-8 text-center">
             <p>&copy; 2024 Salena Nemariam. All Rights Reserved.</p>
